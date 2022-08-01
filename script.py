@@ -1,10 +1,10 @@
 import AutoUpdate
 
 AutoUpdate.set_url("https://raw.githubusercontent.com/AbdelrahmanMohammedx04/script_data/main/script.txt")
-AutoUpdate.set_download_link("https://raw.githubusercontent.com/AbdelrahmanMohammedx04/script_data/main/testing_v2.py")
+AutoUpdate.set_download_link("https://raw.githubusercontent.com/AbdelrahmanMohammedx04/script_data/main/script.py")
 AutoUpdate.set_current_version("0.1")
 if not AutoUpdate.is_up_to_date():
-    AutoUpdate.download("<PATH TO FILE HERE>")
+    AutoUpdate.download("script.py")
 
 
 from pytransform import pyarmor_runtime
